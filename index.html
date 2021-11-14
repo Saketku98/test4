@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>General Questions</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body{
+             background-color: lightcyan ; 
+        }
+        
+        h2{
+            text-align: center;
+            color: tomato;
+            margin-top: 50px;
+            font-size: 42px;
+        }
+
+        #div1{
+            background-color: white;
+            height: 30px;
+            width:500px;
+            box-shadow: 0 0 10px black;
+            margin:50px auto;
+        }
+
+        #div2{
+            display: block;
+            background-color: white;
+            height: 30px;
+            width:500px;
+            box-shadow: 0 0 10px black;
+            margin:50px auto;
+        }
+
+        #div3{
+            display: block;
+            background-color: white;
+            height: 30px;
+            width:500px;
+            box-shadow: 0 0 10px black;
+            margin:50px auto;
+        }
+        
+        #S1{
+            margin-right: 145px;
+            margin-left: 30px;
+            font-size: 16px;
+            
+        }
+        #S2{
+            margin-right: 190px;
+            margin-left: 30px;
+            font-size: 16px;
+            
+        }#S3{
+            margin-right: 175px;
+            margin-left: 30px;
+            font-size: 16px;
+            
+        }
+        #i1,#i2,#i3{
+            font-size: 20px;    
+        }
+        
+    </style>
+</head>
+<body>   
+     <h2>General Questions </h2>
+                            
+    <div id="div1">
+        <span id="S1">Do You Accept All Major Credit Cards?</span>
+        <span onclick="fun1()" ondblclick="d1()" id="s1" class="material-icons">add_box</span>
+    </div>
+    <div id="div2">
+        <Span id=S2>Do You Support Local Farmers?</Span>
+        <span onclick="fun2()" ondblclick="d2()" id="s2" class="material-icons">add_box</span>
+    </div>
+    <div id="div3">
+        <Span id=S3>Do You Use Oraganic Ingredients?</Span>
+        <span onclick="fun3()" ondblclick="d3()" id="s3" class="material-icons">add_box</span>
+    </div>
+
+<script>
+    var SS1=document.getElementById('s1');
+    var SS2=document.getElementById('s2');
+    var SS3=document.getElementById('s3');
+    function fun1() {
+        s1.innerText="YES";
+    }
+   
+    function fun2() {
+        s2.innerText="YES";       
+    }
+    function fun3() {
+        s3.innerText="YES";   
+    }
+    function d1(){
+        s1.innerText="NO";
+    }
+    function d2(){
+        s2.innerText="NO";
+    }
+    function d3(){
+        s3.innerText="NO";
+    }
+
+</script>
+    
+</body>
+</html>
